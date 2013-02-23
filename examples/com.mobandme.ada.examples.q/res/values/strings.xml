@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ADA.Q Demo</string>
+    <string name="command_add_new">Add New</string>
+	<string name="label_name">Name</string>
+	<string name="label_description">Description:</string>
+	<string name="label_price">Price:</string>
+	<string name="label_category">Category:</string>
+	<string name="label_cancel">Cancel</string>
+	<string name="label_save">Save</string>
+	<string name="label_delete">Delete</string>
+	<string name="hint_product_name">Product Name</string>
+	<string name="validation_message_title">Validation</string>
+	<string name="validation_message_nane_required">The Name field is required.</string>
+	<string name="validation_message_description_required">The Description field is required.</string>
+	
+	<string name="menu_add_new">New</string>
+	<string name="menu_save">Save</string>
+	<string name="menu_delete">Delete</string>
+	<string name="menu_search">Search</string>
+</resources>

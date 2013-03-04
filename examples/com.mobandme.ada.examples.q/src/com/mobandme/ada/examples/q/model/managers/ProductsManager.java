@@ -71,8 +71,7 @@ public class ProductsManager extends Manager {
 		//	DataBase.Context.ProductsSet.add(pProduct);
 		//}
 		//DataBase.Context.ProductsSet.save();
-		
-		
+					
 		/* NOW WITH ADA.Q */
 		if (pProduct.getStatus() == Entity.STATUS_NEW) {
 			new Insert()

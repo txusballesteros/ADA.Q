@@ -66,6 +66,9 @@ public class Product extends Entity {
 	@TableField(name = "CreationDate", datatype = DATATYPE_DATE_BINARY)
 	public Date creationDate = new Date();
 	
+	@TableField(name = "Price", datatype = DATATYPE_INTEGER, required = true)
+	@Databinding(ViewId = R.id.ProductPrice)
+	public int price;
 	
 	/***********************************************************/
 	/* 						CONSTRUCTORS					   */

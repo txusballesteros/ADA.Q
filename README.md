@@ -23,3 +23,16 @@ With ADA.Q
 			
 
 Same result, different implementation, with ADA.Q our code It's more readable to all team developers.
+
+Changelog
+=========
+
+v1.2
+	
+	Added Truncate Statment, this command trancate a database table.
+	
+	Example:
+		new Truncate()
+			.table(Product.class)
+			.execute(DataBase.Context);
+	
